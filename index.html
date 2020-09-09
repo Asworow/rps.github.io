@@ -8,17 +8,37 @@
 </head>
 <body>
     <header class="header">
-        <h1>Rock, Paper, Scissors</h1>
+        <h1>Rock Paper Scissors</h1>
     </header>
 
-    <main class="main">
+    <div class="scoreboard">
+        <div id="user-label" class="badge">User</div>
+        <div id="comp-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
 
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
 
-    </main>
-
+    <div class="choices">
+        <div id="rock" class="choice">
+            <img src="Images/Rock.png">
+        </div>
+        <div id="paper" class="choice">
+            <img src="Images/Paper.png">
+        </div>
+        <div id="scissors" class="choice">
+            <img src="Images/Scissors.png">
+        </div>
+    </div>
+    
+    <p id="action-message">Make your move.</p>
     <footer class="footer">
-        <p>Copyright &#169 2020 Asworo. All Rights Reserved</p>
-        <a href="https://twitter.com/Asworo5"><img src="download.png"></a>
+        <p>Made with the help of tutorial: <a href="https://www.youtube.com/watch?v=jaVNP3nIAv0">here</a></p>
+        <p>Also please checkout my twitter: </p><a href="https://twitter.com/Asworo5"><img id="twitter" src="Images/Twitter.png"></a>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
