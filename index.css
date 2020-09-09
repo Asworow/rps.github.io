@@ -64,16 +64,16 @@ header > h1 {
 
 .choices {
     margin: 50px 0px;
-    text-align: center ;
+    text-align: center;
 }
 
 .choice {
     margin: 0px 20px;
     border: 4px solid white;
     border-radius: 50%;
-    display: inline-block;
     padding: 10px;
-    transition: all 0.3s ease;
+    display: inline-block;
+    transition: all 0.5s ease;
 }
 
 #action-message{
